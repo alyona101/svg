@@ -63,5 +63,13 @@ int main() {
     RenderContext ctx(std::cout, 2, 2);
     c.Render(ctx);
 
-    std::cout << "</svg>"sv;
+    std::cout << "</svg>"sv;;
+
+    /*Text text;
+    text.SetPosition({ 55, 55 });
+    text.SetOffset({ 5,5 });
+    text.SetFontSize(15);
+    text.SetFontFamily("Arial");
+    text.SetFontWeight("bold");
+    text.SetData("C++");*/
 }

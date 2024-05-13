@@ -117,6 +117,13 @@ public:
     Text& SetData(std::string data);
 
     // Прочие данные и методы, необходимые для реализации элемента <text>
+private:
+    Point pos_;
+    Point offset_;
+    uint32_t font_size;
+    std::string font_family_;
+    std::string font_weight_;
+    std::string data_;
 };
 
 class Document {
